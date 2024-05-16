@@ -1,0 +1,17 @@
+{
+    "users" : [
+        {
+            "id": 1,
+            "username": "Seyha",
+            "fullname": "Chan Seyha",
+            "email": "chanseyha123456789@gmail.com",
+            "password": "12345",
+            "term": true
+        }
+    ],
+    "jobs" : [
+        {
+
+        }
+    ]
+} 

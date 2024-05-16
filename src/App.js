@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import {NavLink,Outlet} from "react-router-dom";
+// import { BrowserRouter as Router,Routes,Route, BrowserRouter } from "react-router-dom";
+import React from "react";
 
-function App() {
+import { useState } from "react";
+
+
+
+//============> import from pages/menubars
+// import { Bar } from "./pages/Menubars/Menu";
+import MenuBar from "./components/Interface/MenuBarRouting";
+// import View from "./components/Interface/View";
+import Footer from "./components/Interface/Footer";
+
+
+
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <div>
+        <div>
+           
+           {/* <Bar/> */}
+           <MenuBar/>
+           <Footer/>
+           {/* <View/> */}
+           
+           
+          
+        
+        </div>
+     </div>
+
   );
 }
 
